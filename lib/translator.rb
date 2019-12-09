@@ -1,3 +1,5 @@
+require "yaml"
+
 def load_library
   emoticons = YAML.load_file(file_path)
 
